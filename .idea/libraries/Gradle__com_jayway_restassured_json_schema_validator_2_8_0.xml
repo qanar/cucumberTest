@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jayway.restassured:json-schema-validator:2.8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.restassured/json-schema-validator/2.8.0/8206cd8034be0dc03e5d11dd133355bb810a1f0a/json-schema-validator-2.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jayway.restassured/json-schema-validator/2.8.0/142c603398d71d9991b9b9221f335970e94b247/json-schema-validator-2.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

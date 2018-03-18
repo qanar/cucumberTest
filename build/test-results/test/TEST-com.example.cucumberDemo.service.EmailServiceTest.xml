@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.cucumberDemo.service.EmailServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-03-18T12:01:20" hostname="Niek-PC" time="0.015">
+  <properties/>
+  <testcase name="add_invalid" classname="com.example.cucumberDemo.service.EmailServiceTest" time="0.005"/>
+  <testcase name="add_1" classname="com.example.cucumberDemo.service.EmailServiceTest" time="0.01"/>
+  <testcase name="add_2" classname="com.example.cucumberDemo.service.EmailServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

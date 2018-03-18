@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.cucumberDemo.CucumberDemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-18T12:01:20" hostname="Niek-PC" time="0.133">
+  <properties/>
+  <testcase name="contextLoads" classname="com.example.cucumberDemo.CucumberDemoApplicationTests" time="0.133"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.0.RELEASE)
+
+2018-03-18 13:01:17.901  INFO 7788 --- [    Test worker] c.e.c.CucumberDemoApplicationTests       : Starting CucumberDemoApplicationTests on Niek-PC with PID 7788 (started by Niek in C:\Users\Niek\Desktop\cucumberDemo)
+2018-03-18 13:01:17.904  INFO 7788 --- [    Test worker] c.e.c.CucumberDemoApplicationTests       : No active profile set, falling back to default profiles: default
+2018-03-18 13:01:18.238  INFO 7788 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@56ab6d19: startup date [Sun Mar 18 13:01:18 CET 2018]; root of context hierarchy
+2018-03-18 13:01:20.018  INFO 7788 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@56ab6d19: startup date [Sun Mar 18 13:01:18 CET 2018]; root of context hierarchy
+2018-03-18 13:01:20.135  INFO 7788 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/email],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.example.cucumberDemo.model.Email>> com.example.cucumberDemo.interfaces.rest.EmailController.get()
+2018-03-18 13:01:20.136  INFO 7788 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/email/{value}],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.example.cucumberDemo.model.Email> com.example.cucumberDemo.interfaces.rest.EmailController.create(java.lang.String)
+2018-03-18 13:01:20.139  INFO 7788 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-18 13:01:20.140  INFO 7788 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-18 13:01:20.194  INFO 7788 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-18 13:01:20.195  INFO 7788 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-18 13:01:20.252  INFO 7788 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-18 13:01:20.589  INFO 7788 --- [    Test worker] c.e.c.CucumberDemoApplicationTests       : Started CucumberDemoApplicationTests in 3.023 seconds (JVM running for 4.792)
+]]></system-out>
+  <system-err><![CDATA[Mar 18, 2018 1:01:17 PM org.springframework.boot.test.context.SpringBootTestContextBootstrapper buildDefaultMergedContextConfiguration
+INFO: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.cucumberDemo.CucumberDemoApplicationTests], using SpringBootContextLoader
+Mar 18, 2018 1:01:17 PM org.springframework.test.context.support.AbstractContextLoader generateDefaultLocations
+INFO: Could not detect default resource locations for test class [com.example.cucumberDemo.CucumberDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+Mar 18, 2018 1:01:17 PM org.springframework.test.context.support.AnnotationConfigContextLoaderUtils detectDefaultConfigurationClasses
+INFO: Could not detect default configuration classes for test class [com.example.cucumberDemo.CucumberDemoApplicationTests]: CucumberDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+Mar 18, 2018 1:01:17 PM org.springframework.boot.test.context.SpringBootTestContextBootstrapper getOrFindConfigurationClasses
+INFO: Found @SpringBootConfiguration com.example.cucumberDemo.CucumberDemoApplication for test class com.example.cucumberDemo.CucumberDemoApplicationTests
+Mar 18, 2018 1:01:17 PM org.springframework.boot.test.context.SpringBootTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Mar 18, 2018 1:01:17 PM org.springframework.boot.test.context.SpringBootTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5f20646a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7e11f92d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@220eae1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@117cefbf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4da3cace, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3c8a8ac6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@39f80854, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f8f09c3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1c295f46, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@741d2abf]
+]]></system-err>
+</testsuite>
